@@ -1,0 +1,26 @@
+<!DOCTYPE web-app>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+  <!--THIS IS IMPORTANT TO CHANGE if it was generated with maven-->
+
+  <display-name>Archetype Created Web Application</display-name>
+
+  <context-param>
+    <param-name>someParam</param-name>
+    <param-value>someValue</param-value>
+  </context-param>
+
+  <jsp-config>
+    <taglib>
+      <taglib-uri>http://kupchenko.me/tags/funcs</taglib-uri>
+      <taglib-location>/WEB-INF/tags/funcLib.tld</taglib-location>
+    </taglib>
+    <taglib>//The same can be implemented using file tag
+      <taglib-uri>http://kupchenko.me/tags/ctags</taglib-uri>
+      <taglib-location>/WEB-INF/tags/taglib.tld</taglib-location>
+    </taglib>
+  </jsp-config>
+</web-app>
